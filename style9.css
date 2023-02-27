@@ -1,0 +1,1449 @@
+*{
+   margin: 0px;
+   padding:0px;
+   box-sizing: border-box;
+   font-family: 'Josefin Sans', sans-serif;
+
+
+
+}
+         /*-----------menu section start--------------*/
+         .menu-container{
+           width: 100%;
+           height: 90px;
+           box-shadow: 0px 0px 1px rgba(0, 0,0 ,.2);
+           position: fixed;
+           z-index: 333;
+           background:#1F1D2B ;
+           top: 0px;
+           float: left;
+           
+           
+           
+           
+           }
+           .logo{
+           width: 30%;
+           height: 80px;
+           margin-top: -4px;
+           float: left;
+           }
+           .logo img{
+               width: 180px;
+               margin-left: 55px;
+               margin-top:10px ;
+            
+           }
+           .menu-items{
+           width: 60%;
+           height: 80px;
+           margin-left: 130px;
+           
+           float: left;
+           }
+           .menu-items ul li{
+           font-size: 20px;
+           
+           list-style: none;
+           float: left;
+           line-height: 80px;
+           padding: 0px 10px;
+           margin-left: 20px;
+           
+           
+           }
+           .menu-items ul li:hover{
+               background: blue;
+           }
+           .menu-items ul li:hover a{
+              color: white;
+           }
+           .menu-items ul li a{
+               text-decoration: none;
+               color: white;
+               font-size: 22px;
+               
+           }
+           .menu-items ul li i{
+               text-decoration: none;
+               color: white;
+               
+           }
+          @media screen and (max-width:768px){
+            .menu-container{
+              display: inline-block;
+            }
+          }
+
+
+             
+           
+                   /*-----------menu section end--------------*/
+ /*-----------hero section start--------------*/ 
+ .hero2{
+
+  width: 100%;
+  height: auto;
+  display:grid;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  grid-template-columns: auto auto auto;
+
+
+box-sizing: border-box;
+  float: left;
+;
+  
+  
+  
+  
+  
+    }
+    .hero2 div{
+ width:auto ;
+  height:auto;
+
+ background: white;
+  
+  
+    }
+   
+    .hero2 div font{
+
+font-size: 16px;
+position: absolute;
+margin-top: 10px;
+  
+   }
+   .hero2 div p{
+    font-size: 30px;
+    
+position: relative;
+    color: black;
+    margin-top: 40px;
+    
+
+  
+   }
+   .hero2 div:nth-child(1){
+    margin-right: 20px;
+   }
+   .hero2 div span{
+     color: #05f8cc;
+      font-size: 50px;
+line-height: 50px;
+  
+
+     font-weight: bold;
+
+  
+   }
+   .hero2 div img{
+   float: left;
+  
+   
+   }
+   .hero2 div h5{
+   font-size: 20px;
+   margin-top: 15px;
+   }
+   .hero2 div button{
+ 
+  border: none;
+  width: 145px;
+  height: 55px;
+  font-size: 20px;
+  margin-top: 10px;
+  background:#1F1D2B;
+  color: white;
+  font-weight: bold;
+  border-radius: 10px;
+  border: 1px solid rgb(9, 169, 197);
+  }
+  .hero2 div div{
+    width: 140px;
+    height: 150px;
+    
+    margin-left: 00px;
+    margin-top: 40px;
+    text-align: center;
+    border: 2px solid rgb(9, 169, 197);
+    border-radius: 20px;
+   
+    
+    
+     }
+     
+     .hero2 div div h1{
+      font-size: 80px;
+      font-weight: bold;
+      text-align: center;
+      padding: 20px;
+      margin-left: -0px;
+      color: rgb(206, 61, 121);
+      margin-top: -15px;
+      font-family: century gothic;
+    
+    
+    
+    
+    
+     }
+     
+     .hero2 div div p{
+       font-size: 16px;
+     margin-top: -30px;
+       text-align: center;
+       margin-left: -0px;
+    font-size: 16px;
+
+    
+      } 
+      @media screen and (max-width:576px){
+        .hero2{
+          margin-top: 80px;
+
+          height: auto;
+        display: grid;
+          justify-content: center;
+          align-items: center;
+          flex-wrap: wrap;
+          grid-template-columns: auto auto auto;
+
+        
+          text-align: center;
+          
+          
+          
+            }
+            .hero2 div:nth-child(1){
+              grid-column-start: 1;
+              grid-column-end: 4;
+            }
+            .hero2 div span{
+              color: #05f8cc;
+               font-size: 37px;
+         line-height: 40px;
+         margin-left: 10px;
+           
+         
+              font-weight: bold;
+         
+           
+            }
+            .hero2 div:nth-child(1){
+              margin-right: 15px;
+             }
+            .hero2 div font{
+
+              font-size: 16px;
+              position: absolute;
+              margin-top: -25px;
+              margin-left: -45px;
+                
+                 }
+            
+            
+
+            .hero2 div p{
+    text-align: center;
+ margin: auto;
+ font-size: 26px;
+  
+            }
+            .hero2 div h5{
+              font-size: 18px;
+              margin-top: 10px;
+              margin-left: 20px;
+              }
+            .hero2 div{
+   width: auto;
+              height:auto;
+            
+             background: white;
+              
+              
+                }
+                .hero2 div img{
+   margin-left: 5%;
+   width: 300px;
+
+
+  
+   
+                }
+                .hero2 div div{
+                  width: 90px;
+                  height: 100px;
+                  
+                  margin-left: -15%;
+                  margin-top: 20px;
+                  text-align: center;
+                  border: 2px solid rgb(9, 169, 197);
+                  border-radius: 20px;
+                 
+                  
+                  
+                   } 
+ 
+                   .hero2 div div h1{
+                    font-size: 40px;
+                    font-weight: bold;
+                    text-align: center;
+                    padding: 20px;
+                    margin-left: -0px;
+                    color: rgb(206, 61, 121);
+                    margin-top: -10px;
+                  
+                  
+                  
+                  
+                  
+                   }
+                   
+                   .hero2 div div p{
+                     font-size: 12px;
+                   margin-top: -30px;
+                     text-align: center;
+                     margin-left: -0px;
+
+                  
+                    }                            
+      }      
+
+
+   
+    /*-----------hero section end--------------*/  
+                 
+/*------------------------service section start----------*/
+
+.service3{
+  width: 100%;
+  height: auto;
+  display:grid;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  grid-template-columns: auto auto auto;
+  margin-top: 00px;
+  grid-gap: 50px;
+box-sizing: border-box;
+float: left;
+margin-top: 40px;
+
+
+}
+.service-hedding{
+width: 100%;
+height: auto;
+display: grid;
+justify-content: center;
+align-items: center;
+flex-wrap: wrap;
+
+}
+.service-hedding h1{
+margin-top: 80px;
+font-size: 50px;
+font-weight: bold;
+
+
+}
+.service-hedding p{
+ font-size: 20px;
+  text-align: center;
+
+
+}
+
+
+.service3 div{
+  width: 350px;
+  height: 450px;
+  background: #383d58;
+
+
+  text-align: left;
+  
+  
+  
+   }
+   .service3 h1{
+  font-size: 50px;
+  color: aliceblue;
+  font-weight: bold;
+   }
+   .service3 p{
+    font-size: 18px;
+    color: white;
+    padding-bottom: 35px;
+    padding-top: 5px;
+   } 
+   .service3 div:nth-child(4){
+    background: rgb(26, 175, 180) ;
+   }
+   .service3 div:nth-child(4) h1{
+   color: white;
+   }
+   
+   .service3 div:nth-child(4) font{
+    color: white;
+    }
+   .service3 div img{
+    padding: 20px;
+    width: 110px;
+  margin-left: 120px;
+  margin-top: 10px;
+  
+   }
+   .service3 div h1{
+    text-align: center;
+    color: white;
+    font-size: 35px;
+    font: 2.3em sans-serif;
+    margin-top: -0px;
+   }
+  
+   .service3 div i{
+  text-align: right;
+  padding: 7px;
+  margin-top: 10px;
+  margin-left: 70px;
+  font-size: 23px;
+  color: rgb(206, 61, 121);
+    
+   }
+   .service3 div font{
+    text-align: right;
+    font-size: 20px;
+    color: #999daf;
+      
+     }
+
+     @media screen and (max-width:769px){
+      .service3{
+        width: 100%;
+        height: auto;
+        display:grid;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+        grid-template-columns: auto;
+      
+        grid-gap: 20px;
+      box-sizing: border-box;
+      }
+      .service-hedding h1{
+        margin-top: 80px;
+        font-size: 40px;
+        font-weight: bold;
+        text-align: center;
+        
+        
+        }
+        .service-hedding p{
+         font-size: 18px;
+          text-align: center;
+          padding: 0px 60px;
+        
+        
+        }
+      .service3 div{
+        width: 330px;
+        height: 420px;
+        background: #383d58;
+      
+      
+        text-align: left;
+        
+        
+        
+         }
+         .service3 h1{
+        font-size: 50px;
+        color: aliceblue;
+        font-weight: bold;
+         }
+         .service3 p{
+          font-size: 18px;
+          color: white;
+          padding-bottom: 35px;
+          padding-top: 5px;
+         } 
+         .service3 div:nth-child(4){
+          background: rgb(26, 175, 180) ;
+         }
+         .service3 div:nth-child(4) h1{
+         color: white;
+         }
+         
+         .service3 div:nth-child(4) font{
+          color: white;
+          }
+         .service3 div img{
+        
+          padding: 20px;
+          width: 90px;
+        margin-left: 120px;
+        margin-top: 10px;
+        
+         }
+         .service3 div h1{
+          text-align: center;
+          color: white;
+          font-size: 28px;
+         
+          text-align: center;
+         }
+        
+         .service3 div i{
+        text-align: right; 
+        padding: 7px;
+     margin-left: 70px;
+    
+        font-size: 20px;
+        color: rgb(206, 61, 121);
+     
+          
+         }
+         .service3 div font{
+          text-align: right;
+          font-size: 18px;
+          color: #999daf;
+            
+           }
+         
+          
+                 
+      
+     }
+ 
+
+
+
+
+
+/*------------------------service section end---------------*/
+
+
+
+
+/*------------------------about section start---------------*/
+  
+.about3{
+  width:100% ;
+  height: auto;
+ margin-top: 80px;
+
+
+  display:grid;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  grid-template-columns: auto auto;
+
+
+  text-align: center;
+  background: white;
+
+  }
+.about3 h1{
+  font-size: 50px;
+  color: black;
+  font-weight: bold;
+}
+.about3 p{
+color: white;
+font-size: 18px;
+
+}
+  .about3 div{
+width: auto;
+height: auto;
+background: white;
+float: left;
+text-align: left;
+margin-top: 80px;
+
+  }
+  .about3 div:nth-child(2){
+    margin-right: 100px;
+  }
+  .about3 div font{
+margin-left: 10px;        
+}
+.about3 div img{
+width: 68%;
+margin-left: 110px;
+}
+.about3 div h1{
+font-size: 40px;
+margin-left: 10px;
+color: black;
+font-weight: bold;
+
+}
+.about3 div h2{
+  font-size: 35px;
+  margin-left: 10px;
+
+  color: aqua;
+  font-weight: bold;
+  padding-bottom: 15px;
+  
+  }
+  .about3 div p{
+font-size: 19px;
+
+color: #999daf;
+margin-bottom: 18px;
+
+
+
+  }
+  .about3 div p1{
+    font-size: 19px;
+    margin-left: px;
+    color: #999daf;
+    padding: 60px 0px;
+    
+    
+      }
+  @media screen and (max-width:768px){
+    
+.about3{
+  width:100% ;
+  height: auto;
+  margin-top: 80px;
+
+
+  display:grid;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  grid-template-columns: auto;
+text-align: center;
+
+
+
+  } 
+  .about3 div img{
+    width: 74%;
+    margin-left: 14%;
+    text-align: center;
+    }
+    .about3 div h1{
+      font-size: 30px;
+ 
+      color: black;
+      font-weight: bold;
+      text-align: center;
+    
+      
+      }
+      .about3 div:nth-child(2){
+        text-align: left;
+        margin-top: -15px;
+      }
+    .about3 div h2{
+      font-size: 25px;
+      margin-left: auto;
+      
+      color: aqua;
+      font-weight: bold;
+      padding-bottom: 5px;
+      text-align: center;
+      
+      }
+      .about3 div p{
+    font-size: 17px;
+    margin-left: 0px;
+    color: #999daf;
+    text-align: center;
+    padding: 0px 20%;
+    
+    
+      }
+      .about3 div:nth-child(2){
+        margin-right: 0px;
+      }
+      .about3 div p1{
+        font-size: 20px;
+  
+        color: #999daf;
+        text-align: center;
+     margin-left: 15%;
+     margin-top: 20px;
+     
+
+
+
+    
+        
+        
+          }
+  }
+  
+
+
+
+
+
+
+
+/*------------------------about section end---------------*/
+/*---------------chosse section start-------*/
+.choose-hedding{
+  width: 100%;
+  height: auto;
+  display: grid;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  grid-template-columns: auto auto;
+text-align: center;
+grid-gap: 10px;
+margin-top: 50px;
+margin-bottom: 30px;
+
+
+
+}
+.choose{
+  width: 100%;
+  height: auto;
+  display: grid;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  grid-template-columns: auto auto;
+text-align: center;
+grid-gap: 10px;
+
+
+
+}
+.choose div{
+background: ;
+
+width:auto;
+}
+.choose div:nth-child(3){
+  grid-column-start: 1;
+  grid-column-end: 4;
+}
+.choose div:nth-child(6){
+  grid-column-start: 1;
+  grid-column-end: 4;
+}
+.choose div:nth-child(9){
+  grid-column-start: 1;
+  grid-column-end: 4;
+}
+.choose div:nth-child(12){
+  grid-column-start: 1;
+  grid-column-end: 4;
+}
+.choose div font{
+  font-size: 27px;
+}
+.choose div span{
+font-size: 18px;
+}
+.choose div .img{
+width: 230px;
+}
+
+
+    .choose div:nth-child(2){
+     width: 500px;
+     background: ;
+     margin-left: -5px;
+     text-align: left;
+      }
+      .choose div:nth-child(1) img{
+      margin-left: 100px;
+      width:230px;
+
+
+  
+        }
+    
+    .choose div:nth-child(4){
+   text-align: right;
+margin-right: -130px;
+
+ 
+   
+  
+
+
+    }
+    .choose div:nth-child(5){
+      width: 200px;
+      margin-left: 144px;
+    }
+   
+     
+      .choose div:nth-child(7){
+width: 200px;
+margin-left: 160px;
+margin-right: 20px;
+      }   
+         .choose div:nth-child(7) img{
+     width: 240px;
+
+     
+           }
+           .choose div:nth-child(8){
+          text-align: left;
+          margin-left: 10px;
+             }
+           
+              
+                
+                  .choose div:nth-child(10){
+                 text-align: right;
+             margin-right: -140px;
+             z-index: 2;
+             margin-top: 20px;
+                    }
+                    .choose div:nth-child(11){
+                   margin-right: -13px;
+                   margin-top: 20px;
+
+                   
+
+                      }
+.choose div .dot4{
+margin-top: 30px;
+}
+.choose div:nth-child(13){
+margin-right: -120px;
+
+    }
+    .choose div:nth-child(14){
+text-align: left;
+margin-left: -20px;
+  
+      }
+    
+@media screen and (max-width:768px){
+  .choose-hedding{
+    width: 100%;
+    height: auto;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    grid-template-columns: auto auto;
+  text-align: center;
+  grid-gap: 10px;
+  margin-top: 50px;
+  margin-bottom: 30px;
+
+  
+  
+  
+  }
+  .choose{
+    width: 100%;
+    height: auto;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    grid-template-columns: auto auto;
+  text-align: center;
+  grid-gap: 10px;
+  
+  
+  
+  }
+  .choose div{
+  background: ;
+  
+  width:auto;
+  }
+  .choose div:nth-child(3){
+    grid-column-start: 1;
+    grid-column-end: 4;
+  }
+  .choose div:nth-child(6){
+    grid-column-start: 1;
+    grid-column-end: 4;
+  }
+  .choose div:nth-child(9){
+    grid-column-start: 1;
+    grid-column-end: 4;
+  }
+  .choose div:nth-child(12){
+    grid-column-start: 1;
+    grid-column-end: 4;
+  }
+  .choose div font{
+    font-size: 19px;
+  }
+  .choose div span{
+  font-size: 13px;
+  }
+  .choose div .img{
+  width: 115px;
+  }
+  .choose div .dot{
+    width: 240px;
+    }
+  
+  
+      .choose div:nth-child(2){
+       width: 500px;
+       background: ;
+       margin-left: 10px;
+       text-align: left;
+        }
+        .choose div:nth-child(1) img{
+        margin-left: 285px;
+        width:115px;
+  
+  
+    
+          }
+      
+      .choose div:nth-child(4){
+     text-align: right;
+  margin-right: -116px;
+  
+   
+     
+    
+  
+  
+      }
+      .choose div:nth-child(5){
+        width: 200px;
+        margin-left: 75px;
+        
+      }
+     
+       
+        .choose div:nth-child(7){
+  width: 200px;
+  margin-left: 230px;
+  margin-right: -250px;
+        }   
+           .choose div:nth-child(7) img{
+       width: 150px;
+       margin-left: 60px;
+  
+       
+             }
+             .choose div:nth-child(8){
+            text-align: left;
+            margin-left: 35px;
+       
+               }
+             
+                
+                  
+                    .choose div:nth-child(10){
+                   text-align: right;
+               margin-right: -125px;
+               z-index: 2;
+              margin-top: 10px;
+                      }
+                      .choose div:nth-child(11){
+                     margin-right: 160px;
+                     margin-top: 10px;
+                     
+              
+  
+                     
+  
+                        }
+  .choose div .dot4{
+  margin-top: 10px;
+  width: 240px;
+  }
+  .choose div:nth-child(13){
+  margin-right: -290px;
+  
+      }
+      .choose div:nth-child(14){
+  text-align: left;
+  margin-left: -0px;
+    
+        } 
+}
+ /*---------------choose section end-------*/   
+  /*---------------skill section start-------*/              
+
+.skill2{
+width: 100%;
+height: 500px;
+float: left;
+background: black;
+text-align: center;
+
+}
+
+.skill2 div{
+width: 20%;
+height: auto;
+background:;
+float: left;
+margin-left: 54px;
+text-align: center;
+margin-top: 50px;
+}
+.skill2 h1{
+  color: white;
+  font-size: 50px;
+  font-weight: bold;
+  margin-top: 20px;
+}
+.skill2 p{
+  color: white;
+  font-size: 18px;
+
+}
+
+.skill2 div i{
+  position: absolute;
+  margin-top: 47px;
+  font-size: 30px;
+  color: white;
+  margin-left: 49px;
+  background:none;
+  border-radius: 50%;
+  padding: 34px;
+  border: 1px solid white;
+
+}
+.skill2 div h2{
+  color: white;
+  font-size: 22px;
+}
+.skill2 div p{
+color: #8589a5;
+}
+.skill2 div:nth-child(4) i{
+  position: absolute;
+  margin-top: 55px;
+  font-size: 30px;
+  color: white;
+  margin-left: 62px;
+  background:none;
+  border-radius: 50%;
+  padding: 34px;
+  border: 1px solid white;
+
+}
+.skill2 div:nth-child(5) i{
+  position: absolute;
+  margin-top: 50px;
+  font-size: 30px;
+  color: white;
+  margin-left:75px;
+  background:none;
+  border-radius: 50%;
+  padding: 34px;
+  border: 1px solid white;
+
+}
+.skill2 div:nth-child(6) i{
+  position: absolute;
+  margin-top: 60px;
+  font-size: 30px;
+  color: white;
+  margin-left:79px;
+  background:none;
+  border-radius: 50%;
+  padding: 34px;
+  border: 1px solid white;
+
+}
+
+  .skill2 div:nth-child(2) h2{
+    margin-top: 0px;
+    
+    }
+    .skill2 div:nth-child(4) h2{
+      margin-top: 0px;
+      
+      }
+      .skill2 div:nth-child(6){
+        margin-top: 30px;
+        
+        }
+      
+        /*---------------skill section end-------*/  
+
+.team{
+          width: 100%;
+          height: 650px;
+          float: left;
+          background: #2A2C39;
+          text-align: center;
+         
+          
+          }
+.team div{
+  width: 408px;
+  height: 420px;
+  background: none;
+  float: left;
+  margin-left: 32px;
+margin-top: 50px;
+
+
+  
+
+}
+.team  h1{
+  font-size: 50px;
+  color: white;
+  font-weight: bold;
+  margin-top: 20px;
+}
+.team p{
+  font-size: 18px;
+  color: white;
+}
+.team div img{
+width: 100%;
+}
+.team div div{
+  position: absolute;
+  background: rgba(255, 255,255 ,.5);
+margin-left: -0px;
+top: 5315px;
+bottom: 0px;
+height: 150px;
+
+
+}
+.team div div h1{
+margin-top: 30px;
+font-size: 30px;
+font-weight: bold;
+color: black;
+  
+}
+.team div div p{
+  margin-top: 0px;
+  font-size: 18px;
+  color: black;
+
+    
+  }
+  .portfolio{
+    width: 100%;
+    height: 1200px;
+    float: left;
+    background: #2A2C39;
+    text-align: center;
+   
+    
+    }
+    .portfolio div{
+      width: 25%;
+      height: 440px;
+      background: none;
+      float: left;
+    margin-left: 6%;
+    text-align: center;
+    margin-top: 73px;
+
+   
+   overflow: hidden;
+    
+    
+      
+    
+    }
+    .portfolio div img{
+      width: 100%;
+    }
+    .portfolio div img:nth-child(4){
+      margin-left: 40px;
+    }
+    .portfolio div:hover img{
+      transform: translateY(-80%);
+      transition: 5s;
+    }
+    .portfolio  h1{
+      font-size: 50px;
+      color: white;
+      font-weight: bold;
+      margin-top: 70px;
+    }
+    .portfolio p{
+      font-size: 18px;
+      color: white;
+    }
+
+      /*--------review section start-------- */
+ .review{
+    width: 100%;
+    height: 480px;
+    background: #2A2C39;
+
+    text-align: center;
+    float: left;
+
+ 
+ 
+
+ }
+ .review h1{
+  color: white;
+  font-weight: bold;
+  font-size: 50px;
+padding-top: 100px;
+ }
+ .review p{
+  color: white;
+  font-size: 18px;
+ }
+ .review div{
+    width: 50%;
+  float: left;
+  margin-top: 70px;
+  
+    margin-top: 35px;
+ }
+ .review div .pic1{
+position: absolute;
+top: 7030px;
+left: 80px;
+ }
+ .review div .pic2{
+    position: absolute;
+    top: 7020px;
+    left: 760px;
+     }
+.review div .p2{
+position: absolute;
+margin-top: 20px;
+left: 170px;
+font-size: 20px;
+color: #8589a5;
+}
+.review div p3{
+    position: absolute;
+    margin-top: 57px;
+    left: 170px;
+    text-align: left;
+    font-size: 15px;
+    color: white;
+    }
+    .review div .p3{
+        position: absolute;
+        margin-top: 10px;
+        left: 850px;
+        font-size: 20px;
+        color: #8589a5;
+        }
+        .review div p4{
+            position: absolute;
+            margin-top: 45px;
+            left: 850px;
+            text-align: left;
+            font-size: 15px;
+            color: white;
+            }
+              /*--------review section end-------- */
+
+  /*--------contact2 section start-------- */
+  .contact2{
+    width: 100%;
+    height: 570px;
+    background: #232C3B;
+   
+    text-align: center;
+  float: left;
+
+
+ }
+ .contact2 div{
+    width: 100%;
+    height: auto;
+    margin-top: 0px;
+    background:;
+ 
+
+
+ }
+ .contact2 div:nth-child(1) {
+
+height: 80px;
+width: 100%;
+margin-top: 100px;
+
+ }
+
+
+ .contact2 div:nth-child(2){
+width: 25%;
+float: left;
+ 
+   
+    
+     }
+     
+ .contact2 div:nth-child(2) p{
+    font-size: 15px;
+    text-align: left;
+    margin-top: 10px;
+    margin-left: 66px;
+    letter-spacing: 1px;
+ }
+ .contact2 div:nth-child(2) i{
+  font-size: 20px;
+  margin-top: 20px;
+  margin-left: 60px;
+
+ }
+     .contact2 div:nth-child(3){
+        width: 25%; 
+        float: left; 
+       
+          
+           
+            }
+.contact2 div:nth-child(3) h1{
+    font-size: 23px;
+   text-align: left;
+ padding: 10px;
+ color: white;
+}
+.contact2 div:nth-child(3) p{
+    font-size:14px;
+    margin-left: 15px;
+    margin-top: 10px;
+    letter-spacing: 2px;
+
+} 
+        
+            .contact2 div:nth-child(4){
+                width: 25%;  
+                float: left; 
+                  
+                   
+                    }
+                    .contact2 div:nth-child(4) p{
+                        font-size:14px;
+                        margin-left: 0px;
+                     margin-top: 20px;
+                     letter-spacing: 2px;
+                     text-align: left;
+                    }                    
+.contact2 div:nth-child(5){
+    width: 25%; 
+    float: left;  
+      
+       
+        }
+.contact2 div:nth-child(5) h1{
+    font-size: 23px;
+    color: white;
+  
+} 
+.contact2 div:nth-child(5) input{
+margin-left: 10px;
+margin-top: 20px;
+width: 300px;
+height:45px; 
+padding: 20px;
+background: #1E2430;
+border: 2px solid  rgb(5, 190, 236);
+color: #7A9981;
+}
+.contact2 div .textarea{
+    width: 300px;
+    margin-left: -10px;
+    height:100px; 
+  font-size: 20px;
+  padding: 20px;
+background: #1E2430;
+color: #7A9981;
+margin-top: 20px;
+border: 1px solid  rgb(5, 190, 236);
+
+} 
+.contact2 div button{
+width: 150px;
+height: 50px;
+font-size: 18px;
+font-weight: bold;
+background: rgb(5, 190, 236);
+border: none;
+color: white;
+margin-top: 10px;
+
+} 
+
+ .contact2 font{
+    float: left;
+    margin-left: 60px;
+    color: white;
+    font-size: 20px;
+    letter-spacing: 3px;
+ }
+ .contact2 input{
+    float: left;
+    margin-left: 50px;
+    width: 300px;
+    height: 40px;
+    margin-top: -10px;
+    font-size: 18px;
+ }
+ .contact2 p{
+    float: left;
+    margin-left: 50px;
+    font-size: 20px;
+    letter-spacing: 3px;
+    color: white;
+    
+ }
+ .contact2 i{
+ float: left;
+ color: white;
+ letter-spacing: 23px;
+
+ font-size: 25px;
+ margin-left: 50px;
+ }
+.field{
+border: 1px solid  rgb(5, 190, 236);
+  background: none;
+ 
+}
+
+
+
+   /*--------contact2 section end-------- */
+ 
+.grid{
+  width: 100%;
+  height: auto;
+  display: grid;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  text-align: center;
+  grid-template-columns: auto auto auto;
+ 
+}
+.grid div{
+  width: 300px;
+  height:300px ;
+  background: #05f8cc;
+}  
+.grid div:nth-child(1){
+  grid-column-start: 1;
+  grid-column-end: 4;
+}
+
+
